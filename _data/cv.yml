@@ -11,38 +11,45 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Image Analysis and Computer Vision Lab, IISc, Bangalore
-      year: 2020 -
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+    - title: BS-MS (Dual Degree)
+      institution: Indian Institute of Science, Education and Research - Pune
+      year: Aug 2018 - May 2023
+      description:
+      - CGPA: 8.1/10 (top 20%) The grading system is relative.
+      - MS Thesis: 8.9/10 GPA
+      - Subjects (till second year): Mathematics, Physics, Chemistry, Biology, Earth Sciences, Humanities, and Computer Programming
       #   - title: Description 3.
       #     contents:
       #       - Sub-description 1.
       #       - Sub-description 2.
-    - title: B.Tech
-      institution: EEE, NITK Surathkal
-      year: 2013 - 2017
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+    - title: Class XII (CBSE)
+      institution: Faith Academy Senior Secondary School, New Delhi
+      year: Aug 2016 - May 2018
+      description:
+      - Overall percentage: 94.4%
+      - Science percentage (PCM and CS): 95.75%
+    - title: Class X (CBSE)
+      institution: Faith Academy Senior Secondary School, New Delhi
+      year: Starting - May 2016
+      description:
+      - CGPA: 10/10
+      - Subjects ‐ Science, Mathematics, English, Social Studies, Hindi
 
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Unsupervised Domain Adaptation
+    - title: Continual Test-Time Adaptation
       items:
-        - Designing methods to learn using labeled source along with unlabeled target domain data to obtain robust representations generalizing across domains.
-    - title: Cross-Domain Few Shot Learning
-      items:
-        - Designing effective methods capable of adapting a base model to an unseen task from an unseen domain given limited training samples.
-    - title: Source-Free Domain Adaptation
-      items:
-        - The objective is to adapt a model trained on a source domain to a target domain using only unlabelled samples.
-    - title: Test-Time Adaptation
-      items:
-        - The goal is to adapt a source trained model to a test domain in an online manner. The test domains can be continuously changing as well.
+      - The goal is to adapt a source trained model to a test domain in an online manner. The test domains can be continuously changing as well.
+    - title: Multimodal learning
+      item:
+      - It's goal is to integrate diverse data types to enhance understanding, enabling interdisciplinary insights and practical applications.
+    - title: Conditional Diffusion
+      item:
+      - Controlling diffusion models guides data generation and manipulation, enabling precise, adaptable information synthesis for various applications.
+    - title: Causal Inference
+      item: 
+      -  It is the process of identifying and understanding cause-effect relationships between variables.
 
 - title: Work Experience
   type: time_table
