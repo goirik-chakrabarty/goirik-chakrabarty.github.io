@@ -26,14 +26,14 @@
       institution: Faith Academy Senior Secondary School, New Delhi
       year: Aug 2016 - May 2018
       description:
-      - Overall percentage: 94.4%
-      - Science percentage (PCM and CS): 95.75%
+      - "Overall percentage: 94.4%"
+      - "Science percentage (PCM and CS): 95.75%"
     - title: Class X (CBSE)
       institution: Faith Academy Senior Secondary School, New Delhi
       year: Starting - May 2016
       description:
-      - CGPA: 10/10
-      - Subjects ‐ Science, Mathematics, English, Social Studies, Hindi
+      - "CGPA: 10/10"
+      - "Subjects: Science, Mathematics, English, Social Studies, Hindi"
 
 - title: Research Interests
   type: nested_list
@@ -42,34 +42,34 @@
       items:
       - The goal is to adapt a source trained model to a test domain in an online manner. The test domains can be continuously changing as well.
     - title: Multimodal learning
-      item:
+      items:
       - It's goal is to integrate diverse data types to enhance understanding, enabling interdisciplinary insights and practical applications.
     - title: Conditional Diffusion
-      item:
+      items:
       - Controlling diffusion models guides data generation and manipulation, enabling precise, adaptable information synthesis for various applications.
     - title: Causal Inference
-      item: 
+      items: 
       -  It is the process of identifying and understanding cause-effect relationships between variables.
 
-- title: Work Experience
-  type: time_table
-  contents:
-    - title: Software Engineer
-      institution: PathPartner Technology, Bangalore
-      year: 2017 - 2020
-      description:
-        - Worked on CNN based Face Detection for Driver Monitoring System.
-        - Porting Deep Convolutional Models to edge devices.
-        - Developed SIMD vectorized algorithms to support TensorFlow APIs for Cadence Vision DSPs.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    - title: Intern
-      institution: Wipro Technologies, Bangalore
-      year: 2016
-      description:
-        - Worked on Pedestrian Detection module as a part of “Wipro Autonomous Vehicle” team, using HOG feature extractor and SVM as classifier.
+# - title: Work Experience
+#   type: time_table
+#   contents:
+#     - title: Software Engineer
+#       institution: PathPartner Technology, Bangalore
+#       year: 2017 - 2020
+#       description:
+#         - Worked on CNN based Face Detection for Driver Monitoring System.
+#         - Porting Deep Convolutional Models to edge devices.
+#         - Developed SIMD vectorized algorithms to support TensorFlow APIs for Cadence Vision DSPs.
+#         # - title: Description 3.
+#         #   contents:
+#         #     - Sub-description 1.
+#         #     - Sub-description 2.
+#     - title: Intern
+#       institution: Wipro Technologies, Bangalore
+#       year: 2016
+#       description:
+#         - Worked on Pedestrian Detection module as a part of “Wipro Autonomous Vehicle” team, using HOG feature extractor and SVM as classifier.
 
     # - title: Director
     #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
@@ -93,16 +93,16 @@
 
 
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items:
-        - Recipient of the Prime Minister’s Research Fellowship (PMRF).
-    - year: 2013
-      items:
-        - Secured a state rank of 254 in Joint Entrance Exam (JEE) Main.
-        - Secured a rank of 172 in Karnataka Common Entrance Test (KCET).
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2022
+#       items:
+#         - Recipient of the Prime Minister’s Research Fellowship (PMRF).
+#     - year: 2013
+#       items:
+#         - Secured a state rank of 254 in Joint Entrance Exam (JEE) Main.
+#         - Secured a rank of 172 in Karnataka Common Entrance Test (KCET).
 
 
 # - title: Other Interests
