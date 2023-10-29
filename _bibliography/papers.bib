@@ -1,66 +1,68 @@
 @misc{sreenivas2023pstarc,
-      abbr={arXiv Preprint},
+      abbr={WACV},
       title={pSTarC: Pseudo Source Guided Target Clustering for Fully Test-Time Adaptation},
       author={Manogna Sreenivas and Goirik Chakrabarty and Soma Biswas},
-      year={2023},
+      year={2024},
       eprint={2309.00846},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       abstract= "Test Time Adaptation (TTA) is a pivotal concept in machine learning, enabling models to perform well in real-world scenarios, where test data distribution differs from training. In this work, we propose a novel approach called pseudo Source guided Target Clustering (pSTarC) addressing the relatively unexplored area of TTA under real-world domain shifts. This method draws inspiration from target clustering techniques and exploits the source classifier for generating pseudo-source samples. The test samples are strategically aligned with these pseudo-source samples, facilitating their clustering and thereby enhancing TTA performance. pSTarC operates solely within the fully test-time adaptation protocol, removing the need for actual source data. Experimental validation on a variety of domain shift datasets, namely VisDA, Office-Home, DomainNet-126, CIFAR-100C verifies pSTarC’s effectiveness. This method exhibits significant improvements in prediction accuracy along with efficient computational requirements. Furthermore, we also demonstrate the universality of the pSTarC framework by showing its effectiveness for the continuous TTA framework.",
       html={https://arxiv.org/abs/2309.00846},
-      pdf={https://arxiv.org/pdf/2309.00846.pdf}
+      pdf={https://arxiv.org/pdf/2309.00846.pdf},
+      selected={true}
 }
-
-@InProceedings{dss,
-abbr={ICCVW},
-author="Chakrabarty, Goirik
-and Sreenivas, Manogna
-and Biswas, Soma",
-editor="Karlinsky, Leonid
-and Michaeli, Tomer
-and Nishino, Ko",
-title="A Simple Signal for Domain Shift",
-booktitle="ICCV Workshops",
-year="2023",
-publisher="Springer Nature Switzerland",
-abstract="Test time domain adaptation has come to the forefront as a challenging scenario in recent times. Although single domain test-time adaptation has been well studied and shown impressive performance, this can be limiting when the model is deployed in a dynamic test environment. We explore this continual domain test time adaptation problem here. Specifically, we question if we can translate the effectiveness of single domain adaptation methods to continuous test-time adaptation scenario. We take a step towards bridging the gap between these two settings by proposing a domain shift detection mechanism and hence allowing us to employ the current test-time adaptation methods even in a continual setting. We propose to use the given source domain trained model to continually measure the similarity between the feature representations of the consecutive batches. A domain shift is detected when this measure crosses a certain threshold, which we use as a trigger to reset the model back to source and continue test-time adaptation. We demonstrate the effectiveness of our method by performing experiments across datasets, batch sizes and different single domain test-time adaptation baselines.",
-address="Cham",
-pages="262--277",
-isbn="978-3-031-25072-9",
-selected={true}
-}
-
 
 @misc{chakrabarty2023sata,
-      abbr={arXiv Preprint},
-      title={SATA: Source Anchoring and Target Alignment Network for Continual Test Time Adaptation},
+      abbr={TMLR},
+      title={SANTA: Source Anchoring Network and Target Alignment for Continual Test Time Adaptation},
       author={Goirik Chakrabarty and Manogna Sreenivas and Soma Biswas},
       year={2023},
       eprint={2304.10113},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       abstract = "Adapting a trained model to perform satisfactorily on continually changing testing domains/environments is an important and challenging task. In this work, we propose a novel framework, SATA, which aims to satisfy the following characteristics required for online adaptation: 1) can work seamlessly with different (preferably small) batch sizes to reduce latency; 2) should continue to work well for the source domain; 3) should have minimal tunable hyper-parameters and storage requirements. Given a pre-trained network trained on source domain data, the proposed SATA framework modifies the batch-norm affine parameters using source anchoring based self-distillation. This ensures that the model incorporates the knowledge of the newly encountered domains, without catastrophically forgetting about the previously seen ones. We also propose a source-prototype driven contrastive alignment to ensure natural grouping of the target samples, while maintaining the already learnt semantic information. Extensive evaluation on three benchmark datasets under challenging settings justify the effectiveness of SATA for real-world applications.",
-      html={https://arxiv.org/abs/2304.10113},
-      pdf={https://arxiv.org/pdf/2304.10113.pdf}
+      html={https://openreview.net/forum?id=V7guVYzvE4},
+      pdf={https://arxiv.org/pdf/2304.10113.pdf},
+      OpenReview={https://openreview.net/forum?id=V7guVYzvE4},
+      selected={true}
 }
 
 @InProceedings{dss,
-abbr={ICLRW},
-author="Chakrabarty, Goirik
-and Sreenivas, Manogna
-and Biswas, Soma",
-editor="Karlinsky, Leonid
-and Michaeli, Tomer
-and Nishino, Ko",
-title="Domain Shift Signal for Low Resource Continuous Test-Time Adaptation",
-booktitle="ICLR Workshops",
-abstract="Test time domain adaptation has come to the forefront as a challenging scenario in recent times. Although single domain test-time adaptation has been well studied and shown impressive performance, this can be limiting when the model is deployed in a dynamic test environment. We explore this continual domain test time adaptation problem here. Specifically, we question if we can translate the effectiveness of single domain adaptation methods to continuous test-time adaptation scenario. We propose to use the given source domain trained model to continually measure the similarity between the feature representations of the consecutive batches. A domain shift is detected when this measure falls below a certain threshold, which we use as a trigger to reset the model back to source and continue test-time adaptation. We demonstrate the effectiveness of our method by performing experiments across datasets, batch sizes and different single domain test-time adaptation baselines. This can have a significant impact in a variety of applications, from healthcare and agriculture to transportation and finance. As a result, this research has the potential to greatly benefit developing countries by providing new tools and techniques for building more effective and efficient machine learning systems.",
-year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="262--277",
-isbn="978-3-031-25072-9",
-selected={false},
-pdf={https://pml4dc.github.io/iclr2023/pdf/PML4DC_ICLR2023_46.pdf}
+      abbr={ICCVW},
+      author="Chakrabarty, Goirik
+      and Sreenivas, Manogna
+      and Biswas, Soma",
+      editor="Karlinsky, Leonid
+      and Michaeli, Tomer
+      and Nishino, Ko",
+      title="A Simple Signal for Domain Shift",
+      booktitle="ICCV Workshops",
+      year="2023",
+      publisher="Springer Nature Switzerland",
+      abstract="Test time domain adaptation has come to the forefront as a challenging scenario in recent times. Although single domain test-time adaptation has been well studied and shown impressive performance, this can be limiting when the model is deployed in a dynamic test environment. We explore this continual domain test time adaptation problem here. Specifically, we question if we can translate the effectiveness of single domain adaptation methods to continuous test-time adaptation scenario. We take a step towards bridging the gap between these two settings by proposing a domain shift detection mechanism and hence allowing us to employ the current test-time adaptation methods even in a continual setting. We propose to use the given source domain trained model to continually measure the similarity between the feature representations of the consecutive batches. A domain shift is detected when this measure crosses a certain threshold, which we use as a trigger to reset the model back to source and continue test-time adaptation. We demonstrate the effectiveness of our method by performing experiments across datasets, batch sizes and different single domain test-time adaptation baselines.",
+      address="Cham",
+      pages="262--277",
+      isbn="978-3-031-25072-9",
+      selected={true}
+}
+
+@InProceedings{dss,
+      abbr={ICLRW},
+      author="Chakrabarty, Goirik
+      and Sreenivas, Manogna
+      and Biswas, Soma",
+      editor="Karlinsky, Leonid
+      and Michaeli, Tomer
+      and Nishino, Ko",
+      title="Domain Shift Signal for Low Resource Continuous Test-Time Adaptation",
+      booktitle="ICLR Workshops",
+      abstract="Test time domain adaptation has come to the forefront as a challenging scenario in recent times. Although single domain test-time adaptation has been well studied and shown impressive performance, this can be limiting when the model is deployed in a dynamic test environment. We explore this continual domain test time adaptation problem here. Specifically, we question if we can translate the effectiveness of single domain adaptation methods to continuous test-time adaptation scenario. We propose to use the given source domain trained model to continually measure the similarity between the feature representations of the consecutive batches. A domain shift is detected when this measure falls below a certain threshold, which we use as a trigger to reset the model back to source and continue test-time adaptation. We demonstrate the effectiveness of our method by performing experiments across datasets, batch sizes and different single domain test-time adaptation baselines. This can have a significant impact in a variety of applications, from healthcare and agriculture to transportation and finance. As a result, this research has the potential to greatly benefit developing countries by providing new tools and techniques for building more effective and efficient machine learning systems.",
+      year="2023",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="262--277",
+      isbn="978-3-031-25072-9",
+      selected={false},
+      pdf={https://pml4dc.github.io/iclr2023/pdf/PML4DC_ICLR2023_46.pdf}
 }
 
