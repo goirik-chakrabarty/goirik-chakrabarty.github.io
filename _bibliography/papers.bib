@@ -1,4 +1,4 @@
-@misc{sreenivas2023pstarc,
+@InProceedings{sreenivas2023pstarc,
       abbr={WACV},
       title={pSTarC: Pseudo Source Guided Target Clustering for Fully Test-Time Adaptation},
       author={Manogna Sreenivas and Goirik Chakrabarty and Soma Biswas},
@@ -6,24 +6,25 @@
       eprint={2309.00846},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
+      booktitle = {Winter Conference on Applications of Computer Vision},
       abstract= "Test Time Adaptation (TTA) is a pivotal concept in machine learning, enabling models to perform well in real-world scenarios, where test data distribution differs from training. In this work, we propose a novel approach called pseudo Source guided Target Clustering (pSTarC) addressing the relatively unexplored area of TTA under real-world domain shifts. This method draws inspiration from target clustering techniques and exploits the source classifier for generating pseudo-source samples. The test samples are strategically aligned with these pseudo-source samples, facilitating their clustering and thereby enhancing TTA performance. pSTarC operates solely within the fully test-time adaptation protocol, removing the need for actual source data. Experimental validation on a variety of domain shift datasets, namely VisDA, Office-Home, DomainNet-126, CIFAR-100C verifies pSTarC’s effectiveness. This method exhibits significant improvements in prediction accuracy along with efficient computational requirements. Furthermore, we also demonstrate the universality of the pSTarC framework by showing its effectiveness for the continuous TTA framework.",
-      html={https://arxiv.org/abs/2309.00846},
-      pdf={https://arxiv.org/pdf/2309.00846.pdf},
+      website={https://manogna-s.github.io/pstarc/},
+      code={https://github.com/manogna-s/pSTarC},
       selected={true}
 }
 
-@misc{chakrabarty2023sata,
+@InProceedings{santa,
       abbr={TMLR},
-      title={SANTA: Source Anchoring Network and Target Alignment for Continual Test Time Adaptation},
+      title={{SANTA}: Source Anchoring Network and Target Alignment for Continual Test Time Adaptation},
       author={Goirik Chakrabarty and Manogna Sreenivas and Soma Biswas},
+      booktitle={Transactions on Machine Learning Research},
+      issn={2835-8856},
       year={2023},
-      eprint={2304.10113},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      abstract = "Adapting a trained model to perform satisfactorily on continually changing testing domains/environments is an important and challenging task. In this work, we propose a novel framework, SATA, which aims to satisfy the following characteristics required for online adaptation: 1) can work seamlessly with different (preferably small) batch sizes to reduce latency; 2) should continue to work well for the source domain; 3) should have minimal tunable hyper-parameters and storage requirements. Given a pre-trained network trained on source domain data, the proposed SATA framework modifies the batch-norm affine parameters using source anchoring based self-distillation. This ensures that the model incorporates the knowledge of the newly encountered domains, without catastrophically forgetting about the previously seen ones. We also propose a source-prototype driven contrastive alignment to ensure natural grouping of the target samples, while maintaining the already learnt semantic information. Extensive evaluation on three benchmark datasets under challenging settings justify the effectiveness of SATA for real-world applications.",
-      html={https://openreview.net/forum?id=V7guVYzvE4},
-      pdf={https://arxiv.org/pdf/2304.10113.pdf},
-      OpenReview={https://openreview.net/forum?id=V7guVYzvE4},
+      url={https://openreview.net/forum?id=V7guVYzvE4},
+      note={},
+      abstract= "Adapting a trained model to perform satisfactorily on continually changing test environments is an important and challenging task. In this work, we propose a novel framework, SANTA, which aims to satisfy the following characteristics required for online adaptation: 1) can work effectively for different (even small) batch sizes; 2) should continue to work well on the source domain; 3) should have minimal tunable hyperparameters and storage requirements. Given a pre-trained network trained on source domain data, the proposed framework modifies the affine parameters of the batch normalization layers using source anchoring based self-distillation. This ensures that the model incorporates knowledge from the newly encountered domains, without catastrophically forgetting the previously seen domains. We also propose a source-prototype driven contrastive alignment to ensure natural grouping of the target samples, while maintaining the already learnt semantic information. Extensive evaluation on three benchmark datasets under challenging settings justify the effectiveness of SANTA for real-world applications.",
+      website = {https://openreview.net/forum?id=V7guVYzvE4},
+      code={https://github.com/goirik-chakrabarty/SANTA},
       selected={true}
 }
 
