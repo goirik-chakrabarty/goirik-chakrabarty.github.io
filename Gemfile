@@ -17,7 +17,7 @@ group :jekyll_plugins do
     gem 'mini_racer' # comment this to run locally
     gem 'unicode_utils'
     gem 'webrick'
-    # gem 'wdm', '~> 0.1.0' # Uncomment this to run locally
+    # gem 'wdm', '~> 0.1.1' # Uncomment this to run locally
 end
 group :other_plugins do
     gem 'feedjira'
