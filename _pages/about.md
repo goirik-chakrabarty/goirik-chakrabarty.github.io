@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>PhD Candidate, Data Science @ University of Göttingen</a>
+subtitle: <a href='https://sinzlab.org/people/goirik_chakrabarty.html'>PhD Candidate, Data Science @ University of Göttingen</a>
 
 profile:
   align: left
@@ -28,5 +28,3 @@ Prior to this, I worked as a Pre-Doctoral Researcher at TCS Research under [Ramy
 I completed my MS Thesis titled,"[Continual Domain Incremental Learning during Test-time](http://dr.iiserpune.ac.in:8080/xmlui/bitstream/handle/123456789/7830/20181079_Goirik_MS_Thesis.pdf?sequence=1)" under the supervision of [Soma Biswas (IISc Bangalore)](https://sites.google.com/iisc.ac.in/somabiswas) and [Leelavati Narlikar (IISER Pune)](https://www.iiserpune.ac.in/research/department/data-science/people/faculty/regular-faculty/leelavati-narlikar/355). 
 
 I am actively looking for Internship opportunities in AI/ML roles! Feel free to [contact me](mailto:chakrabarty.goirik@gmail.com) 😄
-
-<!-- Please find my CV [here](http://manogna-s.github.io/assets/pdf/ManognaS_CV_Apr2023.pdf). -->
