@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>TCS Pre-Doctoral Researcher</a>
+subtitle: <a href='#'>PhD Candidate, Data Science @ University of Göttingen</a>
 
 profile:
   align: left
